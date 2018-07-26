@@ -1,0 +1,131 @@
+/*
+CREATED: Sam Wolfe 2/17/2018
+MODIFIED: David Levine 2/18/2018
+  - added opening_information class for the opening information for the sport pages
+
+Description: CSS styles for the HTML file output from the
+main ruby function
+*/
+
+.opening_information{
+	font-size: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.opening_information .bordering {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.opening_information h1 {
+	font-size: 35px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.opening_information p {
+	font-size: 20px;
+	margin: 1px;	
+}
+
+.opening_information a{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+.month_title{
+	font-size: 40px;
+	text-align: center;
+	color: black;
+	margin-bottom: 2px;
+	font-weight: bold;
+}
+
+.stats_title{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.month_record{
+	color: rgb(120,120,120);
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table_title{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+   	margin-bottom: 20px;
+	text-align: center;
+	border: 1px solid black;
+	box-shadow: 5px 5px rgba(10,10,100,.2);
+	border-collapse: collapse;
+	max-width: 50%;
+}
+
+.main_table{
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 5px 5px rgba(10,10,100,.2);
+    border-collapse: collapse;
+    max-width: 50%;
+}
+
+.month_table tr td{
+	border: 1px solid black;
+	padding: 6px 15px 6px 15px;
+}
+
+.month_table th{
+	padding: 6px 15px 6px 15px;
+
+}
+
+.win{
+	background: rgba(76, 229, 76, .3);
+}
+.loss{
+	background: rgba(229, 76, 76, .3);
+}
+.incomplete{
+	background: rgba(153, 153, 153, 0.3);
+}
+
+.no_data{
+	background: rgba(194, 102, 255, 0.3);
+}
+
+.tie{	
+	background: rgba(250, 250, 116, 0.3);
+}
+.today{
+	background: rgba(56, 245, 255, 0.3);
+}

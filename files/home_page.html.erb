@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Ohio State University Athletics </title>
+        <link rel="stylesheet" type="text/css" href="../files/style.css">
+    </head>
+    <body>
+      <!-- Output OSU image in center of page -->
+      <div> <img class= "logo" src="../files/osu_logo.png" width="286" height="281" alt="OSU Logo"> </div>
+        <hr />
+        <!-- Output all the links to different sport pages -->
+        <table class="main_table">
+            <!-- Sport link table headers -->
+            <tr>
+                <th> Sport </th>
+            </tr>
+            <!-- Output sport links (Iterates throught containers at same time -->
+            <% sports.zip(sports_link) do |sport, link| %>
+                <tr>
+                    <td>  <a href="../output/<%= link %>"> <%=  sport.name %> </a> </td>
+                </tr>
+            <% end %>
+        </table>
+        <br />
+    </body>
+</html>
